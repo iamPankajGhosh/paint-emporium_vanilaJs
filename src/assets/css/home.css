@@ -36,3 +36,36 @@
 .hero .scrollbar-item {
   min-width: 100%;
 }
+
+/*-----------------------------------*\
+  #COLLECTION
+\*-----------------------------------*/
+
+.collection {
+  padding-block-start: 0;
+}
+
+.collection-list {
+  display: grid;
+  gap: 15px;
+}
+
+.collection-card {
+  background-color: var(--light-gray);
+  min-height: 400px;
+  padding: 40px;
+  padding-block-end: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.collection-card .card-title {
+  margin-block-end: 12px;
+}
+
+.collection-card .card-text {
+  color: var(--white);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-600);
+  margin-block-end: auto;
+}
