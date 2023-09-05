@@ -29,11 +29,11 @@
   --black_5: hsla(0, 0%, 0%, 0.05);
   --white: hsl(0, 0%, 100%);
   --black: hsl(0, 0%, 0%);
+  --cultured-1: hsl(0, 0%, 97%);
+  --cultured-2: hsl(60, 6%, 93%);
 
   --pale-spring-bud: hsl(60, 68%, 85%);
   --spanish-gray: hsl(0, 0%, 61%);
-  --cultured-1: hsl(0, 0%, 97%);
-  --cultured-2: hsl(60, 6%, 93%);
 
   /**
    * gradient
