@@ -227,15 +227,11 @@
 }
 
 .banner-card .card-subtitle {
-  color: var(--black);
+  color: var(--white);
   font-size: var(--fs-6);
   font-weight: var(--fw-600);
   text-transform: uppercase;
   letter-spacing: 2px;
-}
-
-.banner-card :is(.card-title, .card-subtitle) {
-  text-shadow: 0 0 2px var(--cultured-2);
 }
 
 .banner-card-1 .card-title {
