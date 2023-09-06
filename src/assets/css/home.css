@@ -14,10 +14,21 @@
   padding-block-start: 0;
 }
 
+.hero .container {
+  padding-inline: 0;
+}
+
 .hero-card {
   background-color: var(--light-gray);
   padding: 100px 15px;
   background-position: 20%;
+  min-height: 100%;
+}
+
+.hero-card::after {
+  inset: 0;
+  background-color: var(--black_50);
+  z-index: -1;
 }
 
 .hero-text {
