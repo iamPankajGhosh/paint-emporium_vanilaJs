@@ -53,8 +53,16 @@
     <!--
         - preload images
     -->
+    <link
+      rel="preload"
+      as="image"
+      href="./src/assets/img/paint-emporium-logo.png"
+    />
+    <link rel="preload" as="image" href="./src/assets/img/hero-banner-1.jpg" />
+    <link rel="preload" as="image" href="./src/assets/img/hero-banner-2.jpg" />
+    <link rel="preload" as="image" href="./src/assets/img/hero-banner-3.jpg" />
   </head>
-  <body>
+  <body id="top">
     <!--
         - #HEADER
     -->
@@ -1653,6 +1661,18 @@
         </div>
       </div>
     </footer>
+
+    <!--
+      - #BACK TO TOP
+    -->
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+    </a>
 
     <!--
         - custom js link

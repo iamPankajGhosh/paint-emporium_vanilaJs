@@ -38,16 +38,19 @@ const closeNavbar = function () {
 addEventOnElem(navbarLinks, "click", closeNavbar);
 
 /**
- * header sticky
+ * header sticky & back top btn active
  */
 
 const header = document.querySelector("[data-header]");
+const backTopBtn = document.querySelector("[data-back-top-btn]");
 
 const headerActive = function () {
   if (window.scrollY > 150) {
     header.classList.add("active");
+    backTopBtn.classList.add("active");
   } else {
     header.classList.remove("active");
+    backTopBtn.classList.remove("active");
   }
 };
 
@@ -66,3 +69,21 @@ const headerSticky = function () {
 };
 
 addEventOnElem(window, "scroll", headerSticky);
+
+/**
+ * scroll reveal effect
+ */
+
+const sections = document.querySelectorAll("[data-section]");
+
+const scrollReveal = function () {
+  for (let i = 0; i < sections.length; i++) {
+    if (sections[i].getBoundingClientRect().top < window.innerHeight / 2) {
+      sections[i].classList.add("active");
+    }
+  }
+};
+
+scrollReveal();
+
+addEventOnElem(window, "scroll", scrollReveal);
