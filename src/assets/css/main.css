@@ -382,6 +382,17 @@ body {
   width: 100%;
 }
 
+[data-section] > * {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: var(--transition-3);
+}
+
+[data-section].active > * {
+  transform: translateY(0);
+  opacity: 1;
+}
+
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
@@ -636,4 +647,35 @@ body {
 
 .footer-bottom > img {
   max-width: max-content;
+}
+
+/*-----------------------------------*\
+  #BACK TO TOP
+\*-----------------------------------*/
+
+.back-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  background-color: var(--white);
+  color: var(--speech-blue);
+  font-size: 22px;
+  padding: 13px;
+  border-radius: 50%;
+  box-shadow: var(--shadow-1);
+  z-index: 4;
+  opacity: 0;
+  visibility: hidden;
+  transition: var(--transition-1);
+}
+
+.back-top-btn:is(:hover, :focus) {
+  background-color: var(--speech-blue);
+  color: var(--white);
+}
+
+.back-top-btn.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-10px);
 }
