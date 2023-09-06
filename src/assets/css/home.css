@@ -70,6 +70,12 @@
   flex-direction: column;
 }
 
+.collection-card::after {
+  inset: 0;
+  background-color: var(--black_40);
+  z-index: -1;
+}
+
 .collection-card .card-title {
   margin-block-end: 12px;
 }
