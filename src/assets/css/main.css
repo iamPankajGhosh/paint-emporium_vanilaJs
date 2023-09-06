@@ -45,9 +45,9 @@
   );
   --gradient-2: linear-gradient(
     43deg,
-    var(--speech-blue) 0%,
+    var(--grandis) 0%,
     var(--fuchsia-pink) 46%,
-    var(--grandis) 100%
+    var(--speech-blue) 100%
   );
 
   /**
@@ -404,7 +404,7 @@ body {
 
 .header {
   position: relative;
-  padding-block-end: 130px;
+  padding-block-end: 110px;
 }
 
 .alert {
@@ -423,9 +423,9 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: var(--speech-blue);
+  background-color: var(--grandis);
   background: var(--gradient-2);
-  padding-block: 26px;
+  padding-block: 15px;
   z-index: 4;
 }
 
