@@ -87,6 +87,23 @@
   margin-block-end: auto;
 }
 
+.collection-card .btn-link {
+  background-color: var(--speech-blue);
+  background: var(--gradient-2);
+  color: var(--white);
+  padding: 12px 20px;
+  border-radius: var(--radius-3);
+  z-index: 1;
+}
+
+.collection-card .btn-link ion-icon {
+  transition: var(--transition-1);
+}
+
+.collection-card .btn-link:is(:hover, :focus) ion-icon {
+  transform: translateX(3px);
+}
+
 /*-----------------------------------*\
   #SHOP
 \*-----------------------------------*/
