@@ -15,6 +15,18 @@ const addEventOnElem = function (elem, type, callback) {
 };
 
 /**
+ * preloader
+ */
+
+const preloader = document.querySelector("[data-preloader]");
+
+const load = function () {
+  preloader.classList.add("loaded");
+};
+
+addEventOnElem(window, "DOMContentLoaded", load);
+
+/**
  * navbar toggle
  */
 
