@@ -460,7 +460,7 @@ body {
 
 .nav-open-btn .line {
   height: 2px;
-  background-color: var(--black);
+  background-color: var(--white);
   transition: var(--transition-1);
 }
 
