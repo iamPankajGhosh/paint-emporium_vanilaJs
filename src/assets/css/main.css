@@ -599,8 +599,9 @@ body {
 }
 
 .footer {
+  position: relative;
   background-color: var(--cultured-1);
-  padding-block: 70px;
+  padding-block-start: 70px;
 }
 
 .footer-top {
@@ -644,11 +645,12 @@ body {
 }
 
 .footer-link:is(:hover, :focus) {
-  text-decoration: underline;
+  color: var(--speech-blue);
 }
 
 .copyright {
   font-size: var(--fs-7);
+  color: var(--black_70);
 }
 
 .copyright > a {
@@ -678,11 +680,21 @@ body {
 }
 
 .social-link:is(:hover, :focus) {
-  color: var(--speech-blue);
+  color: var(--white);
 }
 
 .footer-bottom > img {
   max-width: max-content;
+}
+
+.footer-bottom {
+  position: absolute;
+  bottom: auto;
+  left: 0;
+  width: 100%;
+  background: var(--gradient-2);
+  padding-block: 20px;
+  padding-inline: 50px;
 }
 
 /*-----------------------------------*\
@@ -691,7 +703,7 @@ body {
 
 .back-top-btn {
   position: fixed;
-  bottom: 20px;
+  bottom: 50px;
   right: 30px;
   background-color: var(--white);
   color: var(--speech-blue);
