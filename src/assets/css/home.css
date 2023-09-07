@@ -108,6 +108,10 @@
   #SHOP
 \*-----------------------------------*/
 
+.shop {
+  background-color: var(--cultured-1);
+}
+
 .shop .title-wrapper {
   display: flex;
   flex-wrap: wrap;
