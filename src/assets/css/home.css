@@ -275,6 +275,10 @@
   #OFFER
 \*-----------------------------------*/
 
+.offer {
+  display: none;
+}
+
 .offer-banner {
   display: grid;
   align-items: center;
