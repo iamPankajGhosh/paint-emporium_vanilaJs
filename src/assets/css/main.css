@@ -623,6 +623,12 @@ body {
   font-size: var(--fs-7);
 }
 
+.copyright > a {
+  display: inline-block;
+  color: var(--black);
+  font-weight: var(--fw-600);
+}
+
 .footer-bottom .wrapper {
   display: flex;
   flex-wrap: wrap;
