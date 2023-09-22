@@ -283,6 +283,20 @@
 }
 
 /*-----------------------------------*\
+  #ESTIMATE BANNER
+\*-----------------------------------*/
+
+.estimate {
+  background: url("../img/extimate-bg.webp");
+  padding-block: 30px;
+  background-position: center;
+}
+
+.estimate .section-title {
+  text-align: center;
+}
+
+/*-----------------------------------*\
   #OFFER
 \*-----------------------------------*/
 
