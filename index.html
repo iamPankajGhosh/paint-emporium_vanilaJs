@@ -4,7 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Paint Emporium</title>
+    <!--
+      - primary meta tags
+    -->
+    <title>Paint Emporium - Wall paint and Home painting in kolkata</title>
+    <meta
+      name="title"
+      content="Paint Emporium - Wall Paint and Home Painting in kolkata"
+    />
+    <meta
+      name="description"
+      content="Get hassle-free wall painting with one of the best paint colours by Asian and Berger Paints. Exclusive waterproofing solutions, interior wall paint, exterior house painting & paint colours by Asian and Berger Paints."
+    />
 
     <!--
         - favicon
@@ -72,12 +83,6 @@
         - #HEADER
     -->
     <header class="header">
-      <div class="alert">
-        <div class="container">
-          <p class="alert-text">Free Shipping On All Kolkata Orders ₹250+</p>
-        </div>
-      </div>
-
       <div class="header-top" data-header>
         <div class="container">
           <a href="#" class="logo">
@@ -109,48 +114,94 @@
             </button>
           </div>
 
-          <div class="header-actions">
-            <button class="header-action-btn" aria-label="user">
-              <ion-icon
-                name="person-outline"
-                aria-hidden="true"
-                aria-hidden="true"
-              ></ion-icon>
-            </button>
-
-            <button class="header-action-btn" aria-label="favourite item">
-              <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
-
-              <span class="btn-badge">0</span>
-            </button>
-
-            <button class="header-action-btn" aria-label="cart item">
-              <data class="btn-text" value="0">₹0.00</data>
-
-              <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
-
-              <span class="btn-badge">0</span>
-            </button>
-          </div>
-
           <nav class="navbar">
             <ul class="navbar-list">
               <li>
-                <a href="#home" class="navbar-link has-after"> home </a>
+                <a href="/" class="navbar-link has-after active"> home </a>
+              </li>
+
+              <li class="dropdown">
+                <a href="#" class="navbar-link has-after">
+                  <span class="span">paints and colors</span>
+                  <ion-icon name="caret-down-outline"></ion-icon>
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="./interior-paint.html" class="link-item">
+                      interior paints
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="./exterior-paint.html" class="link-item">
+                      exterior paints
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="./wood-paint.html" class="link-item">
+                      wood paints
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="./metal-paint.html" class="link-item">
+                      metal paints
+                    </a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a href="#" class="navbar-link has-after">
+                  <span class="span">services</span>
+                  <ion-icon name="caret-down-outline"></ion-icon>
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="./waterproofing-solutions.html" class="link-item">
+                      waterproofing Solutions
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="./painting-services.html" class="link-item">
+                      painting Services
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="./wood-solutions.html" class="link-item">
+                      wood Solutions
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="./roof-coating.html" class="link-item">
+                      roof coating
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="./damp-treatment.html" class="link-item">
+                      damp treatment
+                    </a>
+                  </li>
+                </ul>
               </li>
 
               <li>
-                <a href="#service" class="navbar-link has-after"> services </a>
-              </li>
-
-              <li>
-                <a href="#collection" class="navbar-link has-after">
-                  collection
+                <a href="./estimator.html" class="navbar-link has-after">
+                  Estimator
                 </a>
               </li>
 
               <li>
-                <a href="#contact" class="navbar-link has-after"> contact </a>
+                <a href="./contact.html" class="navbar-link has-after">
+                  contact
+                </a>
               </li>
             </ul>
           </nav>
@@ -181,25 +232,89 @@
 
         <ul class="navbar-list">
           <li>
-            <a href="#home" class="navbar-link has-after" data-nav-link>
+            <a href="/" class="navbar-link has-after active" data-nav-link>
               home
             </a>
           </li>
 
+          <li class="dropdown">
+            <a href="#" class="navbar-link has-after" data-nav-link>
+              <span class="span"> paints and colors </span>
+
+              <ion-icon name="caret-down-outline"></ion-icon>
+            </a>
+
+            <ul class="dropdown-menu">
+              <li>
+                <a href="./interior-paint.html" class="link-item">interior paints</a>
+              </li>
+
+              <li>
+                <a href="./exterior-paint.html" class="link-item">exterior paints</a>
+              </li>
+
+              <li>
+                <a href="./wood-paint.html" class="link-item">wood paints</a>
+              </li>
+
+              <li>
+                <a href="./metal-paint.html" class="link-item">metal paints</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#" class="navbar-link has-after" data-nav-link>
+              <span class="span">services</span>
+
+              <ion-icon name="caret-down-outline"></ion-icon>
+            </a>
+
+            <ul class="dropdown-menu">
+              <li>
+                <a href="./waterproofing-solutions.html" class="link-item">waterproofing solutions</a>
+              </li>
+
+              <li>
+                <a href="./painting-services.html" class="link-item">painting services</a>
+              </li>
+
+              <li>
+                <a href="./wood-solutions.html" class="link-item"
+                  >wood solutions</a
+                >
+              </li>
+
+              <li>
+                <a href="./roof-coating.html" class="link-item"
+                  >roof coating</a
+                >
+              </li>
+
+              <li>
+                <a href="./damp-treatment.html" class="link-item"
+                  >damp treatment</a
+                >
+              </li>
+            </ul>
+          </li>
+
           <li>
-            <a href="#service" class="navbar-link has-after" data-nav-link>
-              services
+            <a
+              href="./estimator.html"
+              class="navbar-link has-after"
+              data-nav-link
+            >
+              Estimator
             </a>
           </li>
 
           <li>
-            <a href="#collection" class="navbar-link has-after" data-nav-link>
-              collection
-            </a>
-          </li>
-
-          <li>
-            <a href="#contact" class="navbar-link has-after" data-nav-link>
+            <a
+              href="./contact.html"
+              class="navbar-link has-after"
+              data-nav-link
+            >
               contact
             </a>
           </li>
@@ -226,18 +341,17 @@
                 >
                   <div class="card-content">
                     <h1 class="h1 hero-title">
-                      Beautiful interior and <br />
-                      exterior painting services.
+                      Beautiful Interior and <br />
+                      Exterior Paints and Products.
                     </h1>
 
                     <p class="hero-text">
                       Improve your home's appearance with our high-quality
-                      painting services for both indoor and outdoor spaces.
+                      <b>Asian</b> and <b>Berger</b> paints for both indoor and
+                      outdoor spaces.
                     </p>
 
-                    <p class="price">Starting at ₹500</p>
-
-                    <a href="#" class="btn btn-primary"> Shop Now </a>
+                    <a href="#" class="btn btn-primary"> Book Now </a>
                   </div>
                 </div>
               </li>
@@ -260,9 +374,7 @@
                       personality and provides a peaceful retreat.
                     </p>
 
-                    <p class="price">Starting at ₹500</p>
-
-                    <a href="#" class="btn btn-primary"> Shop Now </a>
+                    <a href="#" class="btn btn-primary"> Book Now </a>
                   </div>
                 </div>
               </li>
@@ -285,8 +397,6 @@
                       Explore different options and let us know if you need
                       help.
                     </p>
-
-                    <p class="price">Starting at ₹500</p>
 
                     <a href="#" class="btn btn-primary"> Shop Now </a>
                   </div>
@@ -311,8 +421,6 @@
                 <div class="collection-card has-before has-after hover:shine">
                   <h2 class="h2 card-title">Interior Paints</h2>
 
-                  <p class="card-text">Starting at ₹300</p>
-
                   <a href="#" class="btn-link">
                     <span class="span">Shop Now</span>
 
@@ -335,8 +443,6 @@
                 <div class="collection-card has-before has-after hover:shine">
                   <h2 class="h2 card-title">Exterior Paints</h2>
 
-                  <p class="card-text">Starting at ₹300</p>
-
                   <a href="#" class="btn-link">
                     <span class="span">Shop Now</span>
 
@@ -357,9 +463,7 @@
 
               <li>
                 <div class="collection-card has-before has-after hover:shine">
-                  <h2 class="h2 card-title">Distambur Paints</h2>
-
-                  <p class="card-text">Starting at ₹300</p>
+                  <h2 class="h2 card-title">Primers</h2>
 
                   <a href="#" class="btn-link">
                     <span class="span">Shop Now</span>
@@ -1399,35 +1503,15 @@
                     width="91"
                     height="94"
                     loading="lazy"
-                    alt="Mildew Removal"
+                    alt="free color consultation"
                     class="card-icon"
                   />
 
-                  <h3 class="h3 card-title">Mildew Removal</h3>
+                  <h3 class="h3 card-title">Free Color Consultation</h3>
 
                   <p class="card-text">
                     We have a helpful feature on our platform that can assist
-                    with removing mildew.
-                  </p>
-                </div>
-              </li>
-
-              <li class="flex-item">
-                <div class="feature-card">
-                  <img
-                    src="./src/assets/img/feature-2.png"
-                    width="91"
-                    height="94"
-                    loading="lazy"
-                    alt="Virtual Demo"
-                    class="card-icon"
-                  />
-
-                  <h3 class="h3 card-title">Virtual Demo</h3>
-
-                  <p class="card-text">
-                    You'll be happy to know that our platform has a really cool
-                    Virtual Demo feature!
+                    with free consultation.
                   </p>
                 </div>
               </li>
@@ -1502,10 +1586,10 @@
                     class="card-icon"
                   />
 
-                  <h3 class="h3 card-title">Wall Stickers</h3>
+                  <h3 class="h3 card-title">Wall Texture</h3>
 
                   <p class="card-text">
-                    We have wall stickers available for purchase at our company.
+                    We provide wall texture painting service at our company.
                   </p>
                 </div>
               </li>
@@ -1584,13 +1668,13 @@
         <div class="footer-top">
           <ul class="footer-list">
             <li>
-              <p class="footer-list-title">Company</p>
+              <p class="footer-list-title">Paint Emporium</p>
             </li>
 
             <li>
               <p class="footer-list-text">
                 Find a location nearest you. See
-                <a href="#" class="link">Our Stores</a>
+                <a href="./contact.html" class="link">Our Store</a>
               </p>
             </li>
 
@@ -1601,7 +1685,10 @@
             </li>
 
             <li>
-              <a href="mailto:emporiumpaint@gmail.com" class="footer-list-text">
+              <a
+                href="mailto:emporiumpaint@gmail.com"
+                class="footer-list-text hover"
+              >
                 emporiumpaint@gmail.com
               </a>
             </li>
