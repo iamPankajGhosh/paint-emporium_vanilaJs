@@ -126,6 +126,7 @@
 .shop-card .card-banner {
   position: relative;
   overflow: hidden;
+  padding: 10px;
 }
 
 .shop-card .badge {
