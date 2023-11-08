@@ -393,6 +393,19 @@ body {
   opacity: 1;
 }
 
+.map {
+  position: relative;
+  height: 80vh;
+  width: 100%;
+  background-color: var(--black_50);
+}
+
+.map > iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
 /*-----------------------------------*\
   #PRELOADER
 \*-----------------------------------*/
@@ -436,17 +449,6 @@ body {
   padding-block-end: 110px;
 }
 
-.alert {
-  background-color: var(--white);
-  color: var(--black);
-  font-size: var(--fs-7);
-  text-transform: uppercase;
-  font-weight: var(--fw-700);
-  letter-spacing: 2px;
-  text-align: center;
-  padding-block: 15px;
-}
-
 .header-top {
   position: absolute;
   bottom: 0;
@@ -479,6 +481,16 @@ body {
   gap: 20px;
 }
 
+.navbar-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.navbar-link ion-icon {
+  font-size: 12px;
+}
+
 .nav-open-btn {
   width: 26px;
   display: grid;
@@ -504,17 +516,47 @@ body {
   width: 26px;
 }
 
-.header-actions {
-  display: none !important;
+.dropdown {
+  position: relative;
 }
 
-.header-action-btn {
-  font-size: 28px;
+.dropdown ion-icon {
   transition: var(--transition-1);
 }
 
-.header-action-btn:is(:hover, :focus) {
-  color: var(--black_70);
+.dropdown:is(:hover, :focus-within) ion-icon {
+  transform: rotate(180deg);
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 30px;
+  min-width: 190px;
+  width: max-content;
+  visibility: hidden;
+  opacity: 0;
+  scale: 0.8;
+  background-color: var(--white);
+  box-shadow: var(--shadow-1);
+  transition: var(--transition-1);
+}
+
+.dropdown:is(:hover, :focus-within) .dropdown-menu {
+  visibility: visible;
+  opacity: 1;
+  scale: 1;
+}
+
+.dropdown-menu .link-item {
+  padding-block: 5px;
+  padding-inline: 15px;
+  text-transform: capitalize;
+  transition: var(--transition-1);
+}
+
+.dropdown-menu .link-item:is(:hover, :focus) {
+  background-color: var(--speech-blue);
+  color: var(--white);
 }
 
 /*-----------------------------------*\
@@ -555,11 +597,20 @@ body {
 
 .nav-close-btn {
   font-size: 28px;
-  color: var(--speech-blue);
+  color: var(--black_50);
+  transition: var(--transition-1);
+}
+
+.nav-close-btn:is(:hover, :focus) {
+  color: var(--black);
 }
 
 .nav-close-btn ion-icon {
   --ionicon-stroke-width: 40px;
+}
+
+.mobile-navbar .dropdown-menu {
+  z-index: 2;
 }
 
 .mobile-navbar .navbar-link {
@@ -572,7 +623,7 @@ body {
   transition: var(--transition-1);
 }
 
-.mobile-navbar .navbar-link:is(:hover, :focus) {
+.mobile-navbar .navbar-link:is(:hover, :focus, .active) {
   color: var(--speech-blue);
 }
 
@@ -619,6 +670,7 @@ body {
 
 .footer-list-text {
   font-size: var(--fs-8);
+  transition: var(--transition-1);
 }
 
 .footer-list-text .link {
@@ -639,6 +691,10 @@ body {
   margin-block: 15px 2px;
 }
 
+.footer-list-text.hover:is(:hover, :focus) {
+  color: var(--black);
+}
+
 .footer-link {
   font-size: var(--fs-7);
   padding: 5px;
@@ -655,8 +711,12 @@ body {
 
 .copyright > a {
   display: inline-block;
-  color: var(--black);
   font-weight: var(--fw-600);
+  transition: var(--transition-1);
+}
+
+.copyright > a:is(:hover, :focus) {
+  color: var(--black);
 }
 
 .footer-bottom .wrapper {
@@ -816,30 +876,14 @@ body {
   }
 
   .navbar-link {
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-size: var(--fs-6);
     color: var(--white);
     transition: var(--transition-1);
   }
 
-  .navbar-link::after {
-    bottom: -5px;
-    left: 0;
-    height: 2px;
-    width: 100%;
-    background-color: var(--grandis);
-    opacity: 0;
-    transform: scale(0);
-    transition: var(--transition-1);
-  }
-
-  .navbar-link:is(:hover, :focus) {
+  .navbar-link:is(:hover, :focus, .active) {
     color: var(--grandis);
-  }
-
-  .navbar-link:is(:hover, :focus)::after {
-    transform: scale(1);
-    opacity: 1;
   }
 
   .nav-open-btn {

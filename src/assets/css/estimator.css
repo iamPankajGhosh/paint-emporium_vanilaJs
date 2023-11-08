@@ -1,0 +1,314 @@
+.pbc-main-wrapper .planning-to-do input {
+    width: 280px;
+    font-size: 13px;
+    line-height: 13px;
+    margin-right: 40px;
+    padding-left: 12px;
+    border-radius: 2px;
+    padding-right: 12px;
+    letter-spacing: 1px;
+    border: 1px solid #222;
+    cursor: pointer;
+  }
+  
+  .pbc-landing-page .planning-to-do input {
+    width: 195px;
+    padding: 12px;
+    cursor: text;
+  }
+  
+  
+  button{
+    color:#431a80;
+    cursor: pointer;
+  }
+  
+  .d-inline-block {
+    display: inline-block !important;
+  }
+  .align-middle {
+    vertical-align: middle !important;
+  }
+  
+  .pbc-main-wrapper .form-global__custom-element {
+    border-color: #431a80;
+  }
+  .pbc-main-wrapper .form-global__custom-element {
+    border-color: #431a80;
+  }
+  .pbc-main-wrapper .form-global__custom-element {
+    border-color: #431a80;
+  }
+  .form-radio-input__custom-element {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #e9e9e9;
+    position: relative;
+  } 
+  
+  .form-global__custom {
+    position: absolute;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
+    z-index: -1;
+    visibility: hidden;
+  }
+  
+  button, input {
+    overflow: visible;
+  }
+  button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  button, input {
+    overflow: visible;
+  }
+  button, input {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  *, ::after, ::before {
+    box-sizing: border-box;
+  }
+  *, ::after, ::before {
+    box-sizing: border-box;
+  }
+  
+  input[type="radio" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: initial;
+  }
+  
+  input {
+  
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    writing-mode: horizontal-tb !important;
+    margin: 0em;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    padding-block: 1px;
+    padding-inline: 2px;
+  }
+  
+  .pbc-main-wrapper .planning-to-do .select-paint-type .form-global__inline-label {
+    margin-right: 30px;
+  }
+  
+  .pbc-main-wrapper .planning-to-do .select-paint-type .form-global__inline-label {
+    margin-right: 30px;
+  }
+  
+  
+  .position-relative {
+    position: relative !important;
+  }
+  label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+  }
+  
+  *, ::after, ::before {
+    box-sizing: border-box;
+  }
+  *, ::after, ::before {
+    box-sizing: border-box;
+  }
+  
+  .pbc-main-wrapper .planning-to-do .select-paint-type {
+    margin-bottom: 12px;
+  }
+  
+  .pbc-landing-page .select-paint-type {
+    max-width: 500px;
+    width: 500px;
+    flex: 0 0 60%;
+  }
+  
+  *, ::after, ::before {
+    box-sizing: border-box;
+  }
+  *, ::after, ::before {
+    box-sizing: border-box;
+  }
+  
+  form {
+    display: block;
+    margin-top: 0em;
+  }
+  .pbc-main-wrapper .planning-to-do .label-name {
+    margin-bottom: 0;
+  }
+  
+  
+  .pbc-landing-page .label-name {
+    flex: 1;
+    max-width: 320px;
+    width: 320px;
+    flex: 0 0 40%;
+  }
+  h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: normal;
+  }
+  .h3, h3 {
+    font-size: 1.75rem;
+  }
+  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: normal;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  h1, h2, h3, h4, h5 {
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+  }
+  h1, h2, h3, h4, h5 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  *, ::after, ::before {
+    box-sizing: border-box;
+  }
+  *, ::after, ::before {
+    box-sizing: border-box;
+  }
+  .ctaComp-btn:is(:hover, :focus) {
+    color: blue;
+  }
+  h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  } 
+  .form-radio-input__field:checked~.form-global__custom-element:after {
+    display: flex;
+  }
+  
+  .form-radio-input__field:checked ~ .form-global__custom-element:after {
+    display: flex;
+  }
+  .form-radio-input__custom-element:after {
+    width: 50%;
+    height: 50%;
+    background: #431a80;
+    top: 5px;
+    left: 5px;
+    position: absolute;
+    content: " ";
+    border-radius: 50%;
+    display: none;
+  }
+  .form-radio-input__custom-element:after {
+    width: 50%;
+    height: 50%;
+    background: #431a80;
+    top: 5px;
+    left: 5px;
+    position: absolute;
+    content: " ";
+    border-radius: 50%;
+    display: none;
+  }
+
+@media (min-width: 320px) and (max-width: 991px){
+.pbc-main-wrapper .select-paint-type .form-global__inline-label {
+    margin-bottom: 15px;
+    margin-right: 20px ;
+    display: block;
+}}
+
+@media (min-width: 320px) and (max-width: 991px){
+.pbc-main-wrapper .planning-to-do input {
+    width: 100%;
+    margin-right: 0;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 13px 12px;
+    margin-bottom: 20px;
+    display: block;
+}}
+
+
+
+
+@media (min-width: 320px) and (max-width: 991px){
+.pbc-landing-page .planning-to-do .sq-ft-input-filed input {
+    margin-bottom: 0;
+}}
+@media (min-width: 320px) and (max-width: 991px){
+.pbc-landing-page .sq-ft-input-filed input {
+    width: 40%;
+    display: block;
+}}
+
+@media (min-width: 320px) and (max-width: 991px){
+.pbc-main-wrapper .planning-to-do .ctaComp, .pbc-main-wrapper .planning-to-do a {
+    width: 100%;
+    right: -50px;
+    margin-right: 250%;
+  
+    margin-top: 0px;
+
+}}
+
+
+/* .ctaComp{
+  margin-left: 250px; margin-top:-45px;bottom:90px;left:90px;right:10px;
+  width: 100%;
+} */

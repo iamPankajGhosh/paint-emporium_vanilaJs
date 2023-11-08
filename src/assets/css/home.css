@@ -78,12 +78,6 @@
 
 .collection-card .card-title {
   margin-block-end: 12px;
-}
-
-.collection-card .card-text {
-  color: var(--white);
-  font-size: var(--fs-6);
-  font-weight: var(--fw-600);
   margin-block-end: auto;
 }
 
@@ -518,4 +512,11 @@
   .offer .container {
     gap: 120px;
   }
+
+
 }
+
+
+
+
+
