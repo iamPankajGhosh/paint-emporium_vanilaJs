@@ -267,12 +267,22 @@ body {
   padding-block-end: 15px;
   margin-block-end: -15px;
   scroll-snap-type: inline mandatory;
+  /* overflow: hidden; */
 }
 
 .scrollbar-item {
   min-width: 100%;
   scroll-snap-align: start;
 }
+
+
+.has-scrollbars {
+  display: flex;
+  gap: 25px;
+ flex-wrap: wrap;
+
+}
+ 
 
 .has-scrollbar::-webkit-scrollbar-track,
 .has-scrollbar::-webkit-scrollbar-thumb {

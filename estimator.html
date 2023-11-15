@@ -76,7 +76,7 @@
     <header class="header">
       <div class="header-top" data-header>
         <div class="container">
-          <a href="#" class="logo">
+          <a href="./index.html" class="logo">
             <img
               src="./src/assets/img/paint-emporium-logo.png"
               width="140"
@@ -197,6 +197,12 @@
               </li>
 
               <li>
+                <a href="./blog.html" class="navbar-link has-after">
+                  Blog
+                </a>
+              </li>
+
+              <li>
                 <a href="./contact.html" class="navbar-link has-after">
                   contact
                 </a>
@@ -213,7 +219,7 @@
     <div class="sidebar">
       <div class="mobile-navbar" data-navbar>
         <div class="wrapper">
-          <a href="#" class="logo">
+          <a href="./index.html" class="logo">
             <img
               src="./src/assets/img/paint-emporium-logo.png"
               width="140"
@@ -308,6 +314,16 @@
               data-nav-link
             >
               Estimator
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="./blog.html"
+              class="navbar-link has-after"
+              data-nav-link
+            >
+              Blog
             </a>
           </li>
 
@@ -409,7 +425,7 @@
 
 <!-- body section -->
 
-    <div class="budgetlandingpagecalculator aem-GridColumn aem-GridColumn--default--12">
+    <div class="budgetlandingpagecalculator aem-GridColumn aem-GridColumn--default--12"   style="overflow-x: hidden;">
       <div class="BudgetCalculatorComp" id="budget-calculator-comp">
           <tabs @emittab="activeMainTab($event)">
               <tab name="Quick calculator" :selected="true">
@@ -511,11 +527,7 @@
             <li>
               <p class="footer-list-text">
                 Find a location nearest you. See
-<<<<<<< HEAD
                 <a href="./contact.html" class="link">Our Store</a>
-=======
-                <a href="#" class="link">Our Store</a>
->>>>>>> a1104d364b5ca1ba40949c0037201e0ef56a7187
               </p>
             </li>
 

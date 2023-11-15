@@ -122,11 +122,12 @@
 .shop .btn-link:is(:hover, :focus) {
   color: var(--speech-blue);
 }
-
+.shop-card{
+  position: relative;
+}
 .shop-card .card-banner {
   position: relative;
   overflow: hidden;
-  padding: 10px;
 }
 
 .shop-card .badge {
@@ -163,6 +164,7 @@
 .shop-card:is(:hover, :focus) .card-actions {
   opacity: 1;
   transform: translate(-20px, -50%);
+  
 }
 
 .shop-card .card-content {
