@@ -78,12 +78,6 @@
 
 .collection-card .card-title {
   margin-block-end: 12px;
-}
-
-.collection-card .card-text {
-  color: var(--white);
-  font-size: var(--fs-6);
-  font-weight: var(--fw-600);
   margin-block-end: auto;
 }
 
@@ -128,7 +122,9 @@
 .shop .btn-link:is(:hover, :focus) {
   color: var(--speech-blue);
 }
-
+.shop-card{
+  position: relative;
+}
 .shop-card .card-banner {
   position: relative;
   overflow: hidden;
@@ -168,6 +164,7 @@
 .shop-card:is(:hover, :focus) .card-actions {
   opacity: 1;
   transform: translate(-20px, -50%);
+  
 }
 
 .shop-card .card-content {
@@ -518,4 +515,11 @@
   .offer .container {
     gap: 120px;
   }
+
+
 }
+
+
+
+
+

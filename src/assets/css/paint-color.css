@@ -1,0 +1,40 @@
+.span-heading {
+  text-indent: -34px;
+  margin-top: 40px;
+  color: black;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+
+
+.content-table {
+
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: var(--pale-spring-bud);
+opacity: 0;
+transition: var(--transition-2);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
+.shop-card:hover .content-table {
+  opacity: 1;
+}
+
+
+
+.overlays h2{
+  font-size: 10px;
+  text-align: center;
+}
+
+
+
